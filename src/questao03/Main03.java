@@ -2,11 +2,7 @@ package questao03;
 
 public class Main03 {
     public static void main(String[] args) {
-        Carro c1 = new Carro();
-        c1.cor = "Branco";
-        c1.modelo = "UNO";
-        c1.velocidadeAtual = 0;
-        c1.velocidadeMaxima = 100;
+        Carro c1 = new Carro("Branco", "UNO", 0 , 100);
         System.out.println("CARRO");
         System.out.println("COR: " + c1.cor);
         System.out.println("MODELO: " + c1.modelo);

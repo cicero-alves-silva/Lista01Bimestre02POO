@@ -3,6 +3,10 @@ package questao02;
 public class Liquidificador {
     int velocidade;
 
+    public Liquidificador() {
+        this.velocidade = 0;
+    }
+
     boolean aumentarVelocidade(){
         if (velocidade < 3){
             velocidade++;

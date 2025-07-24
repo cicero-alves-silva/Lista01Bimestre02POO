@@ -4,6 +4,11 @@ public class Lampada {
     String tipo;
     int potencia;
 
+    public Lampada(String tipo, int potencia) {
+        this.tipo = tipo;
+        this.potencia = potencia;
+    }
+
     void ligar() {
         System.out.println("Lâmpada ligada!!!");
     }

@@ -6,6 +6,13 @@ public class Carro {
     double velocidadeAtual;
     double velocidadeMaxima;
 
+    public Carro(String cor, String modelo, double velocidadeAtual, double velocidadeMaxima) {
+        this.cor = cor;
+        this.modelo = modelo;
+        this.velocidadeAtual = velocidadeAtual;
+        this.velocidadeMaxima = velocidadeMaxima;
+    }
+
     void ligar(){
         System.out.println("O carro está ligado");
     }
